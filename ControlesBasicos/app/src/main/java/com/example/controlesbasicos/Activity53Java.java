@@ -23,7 +23,7 @@ public class Activity53Java extends AppCompatActivity implements View.OnClickLis
         tvMensaje.setTextColor(ContextCompat.getColor(Activity53Java.this, R.color.miColorRed));
     } else if (id == R.id.btnBoton2) {
         tvMensaje.setText(R.string.boton_2_pulsado);
-        tvMensaje.setTextColor(ContextCompat.getColor(Activity53Java.this, R.color.custom_blue));
+        tvMensaje.setTextColor(ContextCompat.getColor(Activity53Java.this, R.color.custom_green));
     } else {
         //Codigo por defecto
     }
