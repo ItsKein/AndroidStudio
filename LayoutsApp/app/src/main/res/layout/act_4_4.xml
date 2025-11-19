@@ -37,7 +37,6 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
                 android:text="JUAN"
-
                 android:layout_span="4"
                 android:background="@color/marron_claro" />
         </TableRow>
