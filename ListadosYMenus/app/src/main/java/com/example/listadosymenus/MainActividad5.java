@@ -30,9 +30,9 @@ public class MainActividad5 extends AppCompatActivity {
 
         listPlanetas = new ArrayList<>();
         listPlanetas.add(new Planeta("Mercurio", "El mas cercano al Sol", R.drawable.mercurio,
-                false, "https://es.wikipedia.org/wiki/Mercurio_(planeta)#:~:text=Mercurio%20es%20uno%20de%20los,y%20un%2030%20%25%20de%20silicatos.")));
+                false, "https://es.wikipedia.org/wiki/Mercurio_(planeta)#:~:text=Mercurio%20es%20uno%20de%20los,y%20un%2030%20%25%20de%20silicatos."));
         listPlanetas.add(new Planeta("Venus", "El gemelo toxico de la Tierra", R.drawable.venus,
-                false, "https://es.wikipedia.org/wiki/Venus_(planeta)")));
+                false, "https://es.wikipedia.org/wiki/Venus_(planeta)"));
         listPlanetas.add(new Planeta("Tierra", "Nuestro planeta hogar", R.drawable.tierra,
                 true, "https://es.wikipedia.org/wiki/Tierra"));
         listPlanetas.add(new Planeta("Marte", "El planeta rojo", R.drawable.marte,
