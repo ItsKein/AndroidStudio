@@ -33,11 +33,12 @@ public class Planeta {
         return esFavorito;
     }
 
-    public void setEFavoristo(boolean esFavorito) {
+    public void setEsFavorito(boolean esFavorito) {
         this.esFavorito = esFavorito;
     }
 
     public String getUrlInfo() {
         return urlInfo;
     }
+
 }
