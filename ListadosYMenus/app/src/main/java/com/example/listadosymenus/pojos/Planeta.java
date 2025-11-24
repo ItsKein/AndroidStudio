@@ -33,7 +33,7 @@ public class Planeta {
         return esFavorito;
     }
 
-    public void setEsFavorito(boolean esFavorito) {
+    public void setEFavoristo(boolean esFavorito) {
         this.esFavorito = esFavorito;
     }
 
