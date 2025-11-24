@@ -42,7 +42,7 @@ public class MainActividad6 extends AppCompatActivity {
 
             Encapsulador seleccion = datos.get(position);
             tvTituloDetalle.setText(seleccion.getTitulo());
-            tvDescripcionDetalle.setText((seleccion.getDescripcion());
+            tvDescripcionDetalle.setText(seleccion.getDescripcion());
             tvInfoInferior.setText(seleccion.getDescripcion());
         });
 
@@ -51,7 +51,7 @@ public class MainActividad6 extends AppCompatActivity {
             adaptador.notifyDataSetChanged();
             Encapsulador primerElemento = datos.get(0);
             tvTituloDetalle.setText(primerElemento.getTitulo());
-            tvDescripcionDetalle.setText((primerElemento.getDescripcion());
+            tvDescripcionDetalle.setText(primerElemento.getDescripcion());
             tvInfoInferior.setText(primerElemento.getDescripcion());
     }
 
