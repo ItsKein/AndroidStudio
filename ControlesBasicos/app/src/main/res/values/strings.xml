@@ -51,6 +51,7 @@
     -->
     <string name="titulo_programacion">PROGRAMACIÓN MULTIMEDIA</string>
     <string name="texto_construido_desde_el_xml_ntama_o_20sp_bold_y_color_red">Texto construido desde el XML.\nTamaño 20sp, Bold y color Red</string>
+    <string name="nombre">JUAN</string>
 
     <!--
      PARA LA ACTIVIDAD 5.3
