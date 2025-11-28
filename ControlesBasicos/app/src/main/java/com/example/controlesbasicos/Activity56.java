@@ -48,10 +48,10 @@ public class Activity56 extends AppCompatActivity implements View.OnClickListene
                                 p.setProgress(progresoActual);
 
                                 if (progresoActual == 100) {
-                                    // Lanzamos la Activity de imagen
+
                                     Intent x = new Intent(Activity56.this, Imagen.class);
                                     startActivity(x);
-                                    isActivo = false; // Ya terminó
+                                    isActivo = false;
                                 }
                             }
                         });
