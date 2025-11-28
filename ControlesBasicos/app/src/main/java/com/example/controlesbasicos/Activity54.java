@@ -12,7 +12,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.res.ResourcesCompat;
 
-public abstract class Activity54 extends AppCompatActivity implements TextView.OnEditorActionListener {
+public class Activity54 extends AppCompatActivity implements TextView.OnEditorActionListener, TextWatcher{
     private EditText correoEditText;
 
     @Override
@@ -26,5 +26,24 @@ public abstract class Activity54 extends AppCompatActivity implements TextView.O
     }
 
 
+    // El siguiente codigo ha sido gracias a la ayuda de mi compañero
+    public void afterTextChanged(Editable s) {
+        if (s.length() > 0 && !s.toString().contains("@")) {
+            correoEditText.setError("El correo no es válido");
+        } else {
+        }
+    }
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+    }
+    @Override
+    public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+    }
+    @Override
+    public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+        return false;
+    }
 
 }
