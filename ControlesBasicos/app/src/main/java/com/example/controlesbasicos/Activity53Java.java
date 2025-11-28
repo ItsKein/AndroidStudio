@@ -25,8 +25,8 @@ public class Activity53Java extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View v) {
 
-        int id = v.getId(); //obteneos el id
-        //obtenemos las referencias a todas las vistas necesarias
+        int id = v.getId(); //obtenemos id
+
         tvMensaje = findViewById(R.id.tvMensaje);
         if (id == R.id.btnBoton1){
             tvMensaje.setText(R.string.boton_1_pulsado);
