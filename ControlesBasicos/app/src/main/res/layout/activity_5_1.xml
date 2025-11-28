@@ -16,7 +16,7 @@
         android:background="@drawable/borde_textview"
         android:gravity="center"
         android:padding="8dp"
-        android:text="@string/titulo_programacion"
+        android:text="Juan"
         android:textColor="@android:color/darker_gray"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,9 +33,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
 
-        android:text="@string/texto_construido_desde_el_xml_ntama_o_20sp_bold_y_color_red"
+        android:text="Texto construido desde XML\n tamaño 20dp, italic y color blue"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="@color/custom_red" />
+        android:textColor="@color/custom_blue" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
