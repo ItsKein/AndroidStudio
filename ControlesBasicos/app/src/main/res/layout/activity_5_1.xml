@@ -36,7 +36,7 @@
         android:text="Texto construido desde XML\n tamaño 20dp, italic y color blue"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="@color/custom_blue" />
+        android:textColor="@color/miColorRed" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
