@@ -18,7 +18,7 @@ public class Activity53OnClick extends AppCompatActivity {
             tvMensaje.setText(R.string.boton_2_pulsado);
             tvMensaje.setTextColor(ContextCompat.getColor(Activity53OnClick.this, R.color.custom_green));
         } else {
-            //Codigo por defecto
+
         }
     }
 
