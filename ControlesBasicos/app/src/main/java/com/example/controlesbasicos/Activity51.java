@@ -34,16 +34,16 @@ public class Activity51 extends AppCompatActivity {
 
 
         // Ejercicio 5.1.3
-        setContentView(R.layout.activity_5_1);
-        TextView tvContenido = findViewById(R.id.tvContenido);
-
-        tvContenido.append("\nTexto añadido con Append desde Java");
-        tvContenido.setTextColor(ContextCompat.getColor(this, R.color.custom_blue));
-
-        // Ejercicio 5.1.4
 //        setContentView(R.layout.activity_5_1);
 //        TextView tvContenido = findViewById(R.id.tvContenido);
-//        Typeface typeface = ResourcesCompat.getFont(this, R.font.demo_coneriascript);
-//        tvContenido.setTypeface(typeface);
+//
+//        tvContenido.append("\nTexto añadido con Append desde Java");
+//        tvContenido.setTextColor(ContextCompat.getColor(this, R.color.custom_blue));
+
+        // Ejercicio 5.1.4
+        setContentView(R.layout.activity_5_1);
+        TextView tvContenido = findViewById(R.id.tvContenido);
+        Typeface typeface = ResourcesCompat.getFont(this, R.font.demo_coneriascript);
+        tvContenido.setTypeface(typeface);
     }
 }
