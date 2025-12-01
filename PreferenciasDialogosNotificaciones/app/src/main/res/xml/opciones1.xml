@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="OPCIONES GENERALES">
+
+        <CheckBoxPreference
+            android:key="clave_check:unico_so"
+            android:title="UNICO TIPO DE JUEGO"
+            android:summary="Marca si tienes preferencia por un solo S.O." />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="CATEGORIA 2">
+
+        <ListPreference
+            android:key="clave_lista_so"
+            android:title="JUEGOS"
+            android:summary="Selecciona un titulo"
+            android:dialogTitle="Juegos"
+            android:entries="@array/lista1"
+            android:entryValues="@array/clavelista1" />
+
+        <EditTextPreference
+            android:key="clave_edit_version"
+            android:title="TIPO DE JUEGO"
+            android:summary="Pulsa para juego"
+            android:dialogTitle="Introduce titulo" />
+
+
+
+    </PreferenceCategory>
+
+    </PreferenceScreen>

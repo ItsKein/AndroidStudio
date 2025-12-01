@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDFDE0"
+    tools:context=".MainActividad1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROGRAMACION MULTIMEDIA"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="#B0BEC5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTIVIDAD DE PREFERENCIA"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="#CFD8DC"/>
+
+    <Button
+        android:id="@+id/btnDefinirPreferencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="DEFINIR PREFERENCIAS" />
+
+    <Button
+        android:id="@+id/btnRecuperarPreferencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="RECUPERAR PREFERENCIAS" />
+
+</LinearLayout>

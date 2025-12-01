@@ -18,7 +18,7 @@ public class PreferenciasAppActivity extends PreferenceActivity {
         // Este es el único comando necesario.
         // Carga el layout de preferencias desde res/xml/opciones.xml
         // y construye la pantalla de ajustes automáticamente.
-//        addPreferencesFromResource(R.xml.opciones1);
+        addPreferencesFromResource(R.xml.opciones1);
     }
 }
 
